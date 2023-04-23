@@ -1,9 +1,8 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://w3bx.github.io/Weather_app/",
+  "homepage": "https://w3bx.github.io/Weather_app/home",
   "private": true,
-  "proxy": "https://api.openweathermap.org/data/2.5",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -24,9 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
