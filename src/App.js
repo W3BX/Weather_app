@@ -7,7 +7,7 @@ function App() {
   return (
     <Routes>
       {/* main routes */}
-      <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
       {/* in-case user visits unknown page */}
       <Route path="*" element={<Error />} />
     </Routes>
